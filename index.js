@@ -17,7 +17,7 @@ checkStudentScore(190)
 
 // Question 2 - A function that displays one is elligible to vote if 18 year and above, otherwise not eligible
 
-function verifyAge(age) {
+function verifyVotingAge(age) {
     if (age >= 18 ){
         console.log('You are elligible to vote')
     } else {
@@ -25,9 +25,9 @@ function verifyAge(age) {
     }
 }
 
-// Call function verifyAge 
-verifyAge(20)
-verifyAge(14)
+// Call function verifyVotingAge 
+verifyVotingAge(20)
+verifyVotingAge(14)
 
 // Question 3 - A function that assigns a comment based on the score.  
 //     "Excellent" if score >= 90
@@ -35,7 +35,7 @@ verifyAge(14)
 //     "Average" if score >= 50
 //     "Fail" otherwise
 
-function assignScoreGrade(studentName, studentScore) {
+function assignCommentToScore(studentName, studentScore) {
         if (studentScore >= 90){
             console.log('Excellent')
         } else if(studentScore >= 70) {
@@ -47,10 +47,10 @@ function assignScoreGrade(studentName, studentScore) {
         }
 }
 
-// Call function assignScoreGrade to test code 
-assignScoreGrade('Job', 98)
-assignScoreGrade('Mary', 80)
-assignScoreGrade('Kloe', 46)
+// Call function assignCommentToScore to test code 
+assignCommentToScore('Job', 98)
+assignCommentToScore('Mary', 80)
+assignCommentToScore('Kloe', 46)
 
 
 
